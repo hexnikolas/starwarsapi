@@ -25,6 +25,7 @@ python main.py search 'char_name'
 python main.py search 'char_name' --world
 ```
 ##### Cache
+Ignores the other arguments if cache is passed.  
 Clears the cached requests.   
 Run with:
 ```sh
@@ -34,6 +35,7 @@ python main.py cache
 
 
 ##### Visual
+Ignores the other arguments if visual is passed.  
 Creates an interactive window, that shows cached requests as points in a scatter plot.  
 On mouseover of a point it shows the results of that request and the time that it was cached.  
 On click of a point, it prints the result of that request on the console.  
